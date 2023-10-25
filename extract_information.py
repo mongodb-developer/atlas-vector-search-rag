@@ -51,8 +51,8 @@ def query_data(query):
 
     retriever_output = qa.run(query)
 
-# Return Atlas Vector Search output, and output generated using RAG Architecture
-return as_output, retriever_output
+    # Return Atlas Vector Search output, and output generated using RAG Architecture
+    return as_output, retriever_output
 
 # Create a web interface for the app, using Gradio
 
